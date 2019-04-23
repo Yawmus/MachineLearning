@@ -4,9 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+gym_unity = "*"
 
 [packages]
 tensorflow = "==2.0.0-alpha0"
+tf-agents-nightly = "*"
 
 [requires]
 python_version = "3.6"
